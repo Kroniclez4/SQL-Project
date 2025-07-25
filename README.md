@@ -120,7 +120,7 @@ JOIN OrdersTB o ON p.ProductID = o.ProductID
 GROUP BY p.Category
 ORDER BY AverageSales DESC;
 </pre>
-![image alt]()
+![image alt](https://github.com/Kroniclez4/SQL-Project/blob/62d9de330fe216e0a41756440c63d426b5062d80/Average%20Sales.PNG)
 
 5. **Which city generated the highest revenue for AxiaStores?**
 <pre>
