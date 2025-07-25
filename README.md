@@ -61,3 +61,14 @@ VALUES
 
 ![image alt](https://github.com/Kroniclez4/SQL-Project/blob/5b9e42dc7031d57b1d5918450274ad87ddab7de7/SQL%20Customer%20TB.PNG)
 
+## Answers to Analytical Questions and Results
+
+1. **Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”**
+<pre>
+--Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”
+select c.firstname, c.email from customertb c
+join OrdersTB o on c.CustomerID = o.CustomerID
+join ProductTB p on o.ProductID = p.ProductID
+where p.ProductID=1
+</pre>
+
