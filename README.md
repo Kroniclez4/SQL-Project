@@ -80,7 +80,7 @@ join OrdersTB o on c.CustomerID = o.CustomerID
 join ProductTB p on o.ProductID = p.ProductID
 where p.ProductID=1
 </pre>
-![image alt]()
+![image alt](https://github.com/Kroniclez4/SQL-Project/blob/dad8b52c7f5934c1df068c012d70706f6bd1052b/wireless%20mouse%20purchase.PNG)
 
 2. **List all customers’ full names in ascending alphabetical order (LastName, then FirstName)**
 <pre>
