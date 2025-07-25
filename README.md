@@ -141,7 +141,7 @@ GROUP BY
 ORDER BY 
     TotalRevenue DESC;
 </pre>
-![image alt]()
+![image alt](https://github.com/Kroniclez4/SQL-Project/blob/1d27712862488ed7f1fd7e406edd536a2bf266b3/City%20with%20highest%20revenue.PNG)
 
 ### References
 - [Axia Africa SQL Exam](https://drive.google.com/file/d/13chnDFUr7NqbyPSRqy65d9pgeVCM86Ix/view)
