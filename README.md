@@ -107,7 +107,7 @@ join producttb p on o.productid = p.productid
 GROUP BY 
     c.FirstName, c.LastName, p.ProductName, o.Quantity,p.UnitPrice;
 </pre>
-![image alt]()
+![image alt](https://github.com/Kroniclez4/SQL-Project/blob/0614bacd3f0c23246b1b5a2761de259222097c9d/Detailed%20Orders.PNG)
 
 4. **Show average sales per product category and sort in descending order**
 <pre>
