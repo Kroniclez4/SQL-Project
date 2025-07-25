@@ -89,7 +89,7 @@ SELECT FirstName, LastName
 FROM CustomerTB
 ORDER BY LastName ASC, FirstName ASC;
 </pre>
-![image alt]()
+![image alt](https://github.com/Kroniclez4/SQL-Project/blob/8b62e6cdfcfc5d54db2f00b43a37f2c6476080a0/Customers%20Names%20Alphabetically.PNG)
 
 3. **Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.**
 <pre>
